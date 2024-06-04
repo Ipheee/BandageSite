@@ -1,0 +1,286 @@
+.headerOne {
+    width: 100%;
+    background: #23856D;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    color: #ffffff;
+    font-family: 'Montserrat';
+}
+
+.sectionOne {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    line-height: 16px;
+}
+
+.sectionOne p {
+    font-size: 12px;
+}
+
+.sectionTwo {
+    font-size: 30px bold;
+}
+
+.headerOne .sectionTwo {
+    font-size: 30px bold;
+}
+
+.sectionThree {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.socialMediaIcons {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.socialMediaIcons img {
+    width: 50px;
+    size: ;
+}
+
+.headerTwo {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.headerTwo .logo {
+    color: #252B42;
+    padding-left: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    color: #737373;
+    margin-right: 400px;
+}
+
+.sectionFour {
+    display: flex;
+    gap: 20px;
+    color: #23A6F0;
+    align-items: center;
+}
+
+.sectionFourLink {
+    text-decoration: none;
+    color: #23A6F0;
+}
+
+.siteIcons {
+    text-decoration: none;
+    color: #23A6F0;
+}
+
+.sectionFive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.cardImages {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.card {
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.textOverlay {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    background: rgba(0, 0, 0, 0);
+    padding: 10px;
+}
+
+.textOverlay p {
+    color: #2DC071;
+    font-size: 14 bold;
+}
+
+.textOverlay h2 {
+    color: #252B42;
+    font-size: 24 bold;
+}
+
+.textOverlay a {
+    color: #252B42;
+    font-size: 14 bold;
+}
+
+.cardOne {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+}
+
+.cardTwo {
+    grid-column: 3 / 5;
+    grid-row: 1 / 2;
+}
+
+.cardThree {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+
+.cardFour {
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+}
+
+.sectionSix {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.sectionSix h1 {
+    margin: 10px 0;
+    font-size: 2em;
+    color: #252B42;
+}
+
+.sectionSix h2 {
+    font-size: 1.5em;
+    color: #737373;
+}
+
+.sectionSix p {
+    font-size: 1em;
+    color: #737373;
+}
+
+.sectionSix button {
+    font-size: 0.6em bold;
+    color: #23A6F0;
+    border: 1px solid #23A6F0;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.productGrid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.productItems {
+    padding: 20px;
+    text-align: center;
+}
+
+.productItems img {
+    max-width: 100%;
+    height: auto;
+}
+
+.productItems h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #252B42;
+}
+
+.productItems p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #737373;
+}
+
+.price {
+    margin: 10px 0;
+}
+
+.originalPrice {
+    color: #BDBDBD;
+}
+
+.discountedPrice {
+    color: #23856D;
+    font-weight: bold;
+}
+
+.sectionSeven {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.sectionSeven h1 {
+    margin: 10px 0;
+    font-size: 2em;
+    color: #252B42;
+}
+
+.sectionSeven h2 {
+    font-size: 1.5em;
+    color: #737373;
+}
+
+.sectionSix p {
+    font-size: 1em;
+    color: #737373;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.column {
+    width: 33%;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.column img {
+    width: 90%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.column h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: #252B42;
+}
+
+.column p {
+    margin: 0;
+    padding: 0;
+    color: #737373;
+}
